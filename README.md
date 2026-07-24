@@ -4,9 +4,8 @@
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Demo On Netlify 
 
-🔗 **Live Application URL:**  https://prepiq-ai-study-quiz-ouf2.bolt.host/
  i uplooad my website on Netlify  URL:** https://prepiq-ai-study-companion.netlify.app/
 
 ## 📌 Problem & Solution
