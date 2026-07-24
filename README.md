@@ -29,6 +29,11 @@ Students and self-learners often struggle with active recall when reviewing long
 * 🌙 **Dark / Light Mode:** Built-in theme switcher for comfortable late-night studying.
 
 ---
+<img width="1366" height="645" alt="Screenshot (1552)" src="https://github.com/user-attachments/assets/4d3f02f5-4896-4902-a57b-d1acfa235695" />
+<img width="1366" height="642" alt="Screenshot (1553)" src="https://github.com/user-attachments/assets/991be9be-9700-4c64-b8b7-edbf3093fac4" />
+<img width="1366" height="680" alt="Screenshot (1554)" src="https://github.com/user-attachments/assets/74d5872f-cc5d-4a40-bee6-4ba6a19f4676" />
+
+
 
 ## 🤖 The AI Feature & System Prompt
 
