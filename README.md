@@ -89,10 +89,10 @@ Keep the questions clear, accurate, and suitable for students.
 ---
 
 ## How to Run the Project
-
-git init
-git add .
-git commit -m "Initial commit"
+By adding the Git commands                                                                                                                         
+git init                                                                                                                                             
+git add .                                                                                                                                          
+git commit -m "Initial commit"                                                                                                                      
 git push origin main
 
 
