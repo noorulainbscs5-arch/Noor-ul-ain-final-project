@@ -28,7 +28,14 @@ PrepIQ solves this problem by automatically generating quizzes from study materi
 - Correct answer for every question
 - Explanation for each answer
 - Simple and responsive user interface
-- Dark mode support
+-  AI Study Tutor for follow-up questions
+- Ask questions based on uploaded notes
+- Multiple difficulty levels (Easy, Medium, Hard)
+- Select quiz length (3, 5, or 10 questions)
+- Support for different study topics
+- Instant AI-generated responses
+- Modern and responsive user interface
+- Dark and Light mode support
 
 ---
 
