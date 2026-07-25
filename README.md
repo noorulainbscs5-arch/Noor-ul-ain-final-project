@@ -81,41 +81,15 @@ Keep the questions clear, accurate, and suitable for students.
 
 ## How to Run the Project
 
-Clone the repository:
+git init
+git add .
+git commit -m "Initial commit"
+git push origin main
 
-```bash
-git clone https://github.com/noorulainbscs5-arch/AI-final-project-.git
-```
-
-Move into the project folder:
-
-```bash
-cd AI-final-project-
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open your browser and visit:
-
-```
-http://localhost:5173
-```
-
----
 
 ## GitHub Repository
 
-https://github.com/noorulainbscs5-arch/AI-final-project-
+https://github.com/noorulainbscs5-arch/Noor-ul-ain-final-project
 
 ---
 
