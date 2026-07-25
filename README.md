@@ -1,58 +1,138 @@
-# PrepIQ — AI Study Companion
+# PrepIQ – AI Study Companion
 
-> Turn your study notes, lecture slides, and textbook summaries into instant, interactive quizzes.
+PrepIQ is an AI-powered web application that helps students study more effectively by converting lecture notes, textbook summaries, and study material into multiple-choice quizzes. The application allows students to revise quickly by generating quiz questions, providing the correct answers, and explaining each answer using Artificial Intelligence.
 
----
-
-## 🚀 Demo On Netlify 
-
- i uplooad my website on Netlify  URL:** https://prepiq-ai-study-companion.netlify.app/
-
-## 📌 Problem & Solution
-
-### **The Problem:**
-Students and self-learners often struggle with active recall when reviewing long lecture notes, textbook chapters, or slides. Passively re-reading notes is inefficient and leads to low retention. However, manually creating custom quiz questions and flashcards is time-consuming.
-
-### **The Solution:**
-**PrepIQ** solves this by leveraging AI to generate instant, tailored multiple-choice quizzes directly from pasted study material. It provides real-time scoring, detailed answer explanations, and an AI tutor on standby to answer follow-up questions—helping students test their understanding efficiently.
+This project was developed as the Final Project for the AI in Web Development course.
 
 ---
 
-## ✨ Features List
+## Live Demo
 
-* 📝 **Instant Quiz Generation:** Paste lecture notes, text summaries, or slides to instantly generate customized multiple-choice questions.
-* 🎯 **Custom Difficulty Levels:** Option to adjust quiz difficulty and question count according to your prep needs.
-* ⚡ **Instant Automated Scoring:** Get immediate feedback on quiz submissions with calculated test scores.
-* 💡 **Detailed Answer Explanations:** Comprehensive explanations provided for every correct and incorrect answer choice.
-* 🤖 **AI Tutor on Standby:** Interactive chat assistant to clear up confusing concepts or explain specific question topics further.
-* 🔑 **Custom API Key Integration:** Supports custom Gemini / LLM API key input directly in the UI for personal usage.
-* 🌙 **Dark / Light Mode:** Built-in theme switcher for comfortable late-night studying.
+https://prepiq-ai-study-companion.netlify.app/
 
 ---
+
+## Problem Statement
+
+Students often spend a lot of time creating practice questions from their notes before exams. This process is slow and makes revision less efficient.
+
+PrepIQ solves this problem by automatically generating quizzes from study material, helping students learn faster and test their understanding instantly.
+
+---
+
+## Features
+
+- Generate quizzes from study notes
+- AI-powered multiple-choice questions
+- Four answer options for each question
+- Correct answer for every question
+- Explanation for each answer
+- Simple and responsive user interface
+- Dark mode support
+
+---
+
+## AI Feature
+
+The application uses Artificial Intelligence to read the user's study material and generate multiple-choice quiz questions with explanations.
+
+### AI Instructions (System Prompt)
+
+```text
+You are an AI Study Assistant.
+
+Read the user's study notes carefully.
+
+Generate multiple-choice questions based only on the provided content.
+
+Each question must include:
+- Four answer options
+- One correct answer
+- A short explanation
+
+Do not add information that is not present in the notes.
+
+Keep the questions clear, accurate, and suitable for students.
+```
+
+---
+
+## Technologies Used
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- OpenAI API
+- Git
+- GitHub
+- Netlify
+
+---
+
+## Screenshots
+
+### Home Page
+
 <img width="1366" height="645" alt="Screenshot (1552)" src="https://github.com/user-attachments/assets/4d3f02f5-4896-4902-a57b-d1acfa235695" />
 <img width="1366" height="642" alt="Screenshot (1553)" src="https://github.com/user-attachments/assets/991be9be-9700-4c64-b8b7-edbf3093fac4" />
 <img width="1366" height="680" alt="Screenshot (1554)" src="https://github.com/user-attachments/assets/74d5872f-cc5d-4a40-bee6-4ba6a19f4676" />
+---
+
+## How to Run the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/noorulainbscs5-arch/AI-final-project-.git
+```
+
+Move into the project folder:
+
+```bash
+cd AI-final-project-
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## GitHub Repository
+
+https://github.com/noorulainbscs5-arch/AI-final-project-
+
+---
+
+## Live Website
+
+https://prepiq-ai-study-companion.netlify.app/
+
+---
+
+## Developer
+
+Noor Ul Ain
+
+BS Computer Science
+
+Final Project – AI in Web Development (2026)
 
 
 
-## 🤖 The AI Feature & System Prompt
 
-### **What the AI Feature Does:**
-The AI core parses user-submitted study materials, extracts key concepts, and converts them into structured JSON containing multiple-choice questions, options, correct answers, and detailed explanations. It also acts as an embedded AI Tutor to answer student follow-up questions based on the provided material.
-
-### **System Prompt / Instructions Used:**
-
-```text
-You are PrepIQ, an expert AI Study Assistant and Tutor.
-
-Your core responsibility is to transform educational material provided by the user (lecture notes, textbook excerpts, slides) into engaging, pedagogical multiple-choice quizzes, and assist students with detailed explanations.
-
-Strict Rules:
-1. Parse the provided study material and extract core concepts.
-2. Generate structured multiple-choice questions containing:
-   - Clear question stems.
-   - 4 distinct answer options (1 correct answer, 3 plausible distractors).
-   - Detailed step-by-step explanations for why the correct answer is right and why others are wrong.
-3. Match the requested difficulty level (Easy, Medium, Hard).
-4. Maintain an encouraging, educational tone suitable for a high-performing study tutor.
-5. If requested, act as a chat assistant to answer follow-up questions related strictly to the study material provided.
