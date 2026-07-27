@@ -8,7 +8,7 @@ This project was developed as the Final Project for the AI in Web Development co
 
 ## Live Demo
 
-https://prepiq-ai-study-companion.netlify.app/
+https://prepiq-ai-study-quiz-ouf2.bolt.host/
 
 ---
 
